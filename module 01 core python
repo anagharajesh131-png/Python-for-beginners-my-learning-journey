@@ -1,0 +1,12 @@
+Q001_Celsius_to_Kelvin
+  *question.md
+       A physics lab notebook records temperature in Celsius. Write a program that reads a temperature value from the user, converts it to Kelvin, and prints the result with 2 decimal places.
+  *solution.py
+      # Read the temperature in Celsius
+      celsius = float(input("Enter temperature in Celsius: "))
+
+      # Convert Celsius to Kelvin
+      kelvin = celsius + 273.15
+
+      # Display the result
+      print(f"Temperature in Kelvin = {kelvin:.2f} K")
