@@ -1,0 +1,6 @@
+formula=input("enter the formula=")
+h=float(input("enter h="))
+f=float(input("enter f="))
+formula=formula.replace("h",str(h))
+formula=formula.replace("f",str(f))
+print(formula)
